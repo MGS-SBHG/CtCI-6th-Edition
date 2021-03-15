@@ -1,0 +1,21 @@
+Equivalent to O(N):
+O(N + P)
+    where P < N/2
+N is the dominant term
+drop the O(P)
+
+Equivalent to O(N):
+O(2N)
+drop constants
+is O(N)
+
+Equivalent to O(N):
+O(N + log N)
+O(N) dominates O(log N)
+drop O(log N)
+
+
+NOT equivalent to O(N):
+O(N + M)
+No established relationship between N and M;
+    keep both variables

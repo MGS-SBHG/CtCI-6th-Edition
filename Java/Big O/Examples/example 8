@@ -1,0 +1,22 @@
+Have an algorithm that
+    took in array of strings
+    sorted each string
+    sorted the full array
+
+s = length of the longest string
+a = length of the array
+
+sort each string = O(s log s)
+    for every string
+    there are "a" nbr of strings
+takes O(a*s log s) time
+
+sort all the strings
+    need to compare the strings
+        each comparison takes O(s) time
+        there are O(a log a) comparisons
+takes O(a*s log a) time
+
+add the two parts
+Big O runtime = O(a*s(log a + log s))
+
